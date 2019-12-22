@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "gothenburg-stadskarta",
+    "name": "Gothenburg City map",
+    "best": true,
+    "country_code": "SE",
+    "i18n": true,
+    "description": "The city map is an overview map that describes Gothenburg. It contains general information about land, communications, hydrography, buildings, address numbers and street names, administrative division and other orientation text.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/97/G%C3%B6teborg_kommunvapen_-_Riksarkivet_Sverige.png",
+    "license_url": "https://catalog.goteborg.se/catalog/6/datasets/718",
+    "type": "wms",
+    "url": "https://opengeodata.goteborg.se/services/stadskarta.wms.v4/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=stadskarta&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",
+    "max_zoom": 21,
+    "min_zoom": 5,
+    "attribution": {
+      "required": true,
+      "text": "© Gothenburg municipality, CC0",
+      "url": "https://catalog.goteborg.se/catalog/6/datasets/718"
+    },
+    "available_projections": [
+      "EPSG:3006",
+      "EPSG:3007",
+      "EPSG:3857",
+      "CRS:84",
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+         [
+           10.8077991,
+           58.3426579
+         ],
+         [
+           13.0257995,
+           58.3426579
+         ],
+         [
+           13.0257995,
+           57.0895967
+         ],
+         [
+           10.8077991,
+           57.0895967
+         ]
+      ]
+    ]
+  }
+}
